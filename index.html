@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>TestUTITLITY</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Text Utitlity</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About Us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Hello Welcome to Text Utility</strong> You should enter text to see magic.
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+    <div class="container">
+      <form action ="/analyze", method="get">
+  <div class="form-floating">
+    <textarea class ="form-control" name="text" placeholder="Enter your text here"id="floatingTextarea2"style="height:100px"></textarea>
+  <label for="floatingTextarea2">Enter your text here</label>
+
+  </div>
+      <div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" name="checkboxxx" id="customSwitch1">
+  <label class="custom-control-label" for="customSwitch1">Remove Puntuation</label>
+</div>
+      <div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" name="upbox" id="customSwitch2">
+  <label class="custom-control-label" for="customSwitch2">convert to uppercase</label>
+</div>
+      <div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" name="capbox" id="customSwitch3">
+  <label class="custom-control-label" for="customSwitch3">Captialize Text</label>
+</div>
+      <div class="custom-control custom-switch">
+  <input type="checkbox" class="custom-control-input" name="charbox" id="customSwitch4">
+  <label class="custom-control-label" for="customSwitch4">count number of text</label>
+</div>
+        <button type="submit" class="btn btn-success">Analyze My Text</button>
+      </form>
+    </div>
+
+  </body>
+</html>
